@@ -1,0 +1,64 @@
+{
+  "name": "del-paths",
+  "version": "0.1.0",
+  "description": "Create an array of ignore paths suitable for use with the 'del' module from a file or folder path.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:npetruzzelli/del-paths.git"
+  },
+  "keywords": [
+    "delete",
+    "files",
+    "folders",
+    "directories",
+    "del",
+    "paths",
+    "remove",
+    "destroy",
+    "trash",
+    "unlink",
+    "clean",
+    "cleaning",
+    "cleanup",
+    "rm",
+    "rmrf",
+    "rimraf",
+    "rmdir",
+    "glob",
+    "gulpfriendly",
+    "file",
+    "folder",
+    "directory",
+    "dir",
+    "fs",
+    "filesystem"
+  ],
+  "author": "Nick Petruzzelli <code.npetruzzelli@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "is-glob": "^3.1.0",
+    "is-valid-glob": "^0.3.0",
+    "lodash.clonedeep": "^4.5.0",
+    "strip-trailing-slashes": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-prettier-standard": "^1.0.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.5.2"
+  }
+}
